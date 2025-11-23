@@ -1,0 +1,86 @@
+.madeBy{
+    background-color: violet;
+    width: 230px;
+    margin: 0px;
+}
+h4{
+    margin: 0px;
+}
+
+.one {
+background-color: rgb(75, 203, 212);
+width: 400px;
+padding: 20px;
+text-align: center;
+border-radius: 15px;
+}
+           
+
+.center-box{
+display: flex;
+justify-content: center; /*horizontal*/
+/*align-items: center;*/           /*vertical*/
+height: 100vh;  /*full screen height*/
+margin-top: 75px;
+height: 350px;
+
+}
+
+
+
+.form-Elements{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    align-items: centers;
+}
+
+.form-row label {
+    
+    display: flex;
+    width: 35%;
+    font-weight: bold;
+    align-items: center;
+    text-align: left;
+
+
+    
+}
+
+.form-row input {
+    width: 65%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: 35%;  /* aligns error under the input area */
+    text-align: left;
+    
+}
+
+
+button{
+    margin-top: 20px;
+    padding: 8px 16px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
